@@ -14,6 +14,10 @@ print('Non-Pythonic Approach: ', even_nums)
 even_n = filter(even, numbers)
 print('Pythonic Approach: ', list(even_n))
 
+# using lambda function
+even_num = list(filter(lambda x: x%2 == 0, numbers))
+print(f'Using lambda approach: {even_num}')
+
 #zip to iterate over two lists
 first = [1, 3, 8, 4, 9]
 second = [2, 2, 7, 5, 8]
