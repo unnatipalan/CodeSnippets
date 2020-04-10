@@ -43,7 +43,7 @@ def greeting(userid):
 
 '''Finally Python Dictionaries have get method that supports a default fall back'''
 
-def greetings(userid):
+def greeting(userid):
     customer_greeting = 'Hi %s!' % name_for_userid.get(userid, 'there')
     return customer_greeting
 
