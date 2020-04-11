@@ -50,4 +50,4 @@ def greetings(userid):
 
 
 #greeting(950) #works as expected
-print(greeting(8000))
+print(greetings(8000))
