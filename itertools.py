@@ -1,4 +1,4 @@
-from itertools import *
+from itertools import count, dropwhile
 
 # Easy joining of two lists into a list of tuples
 for i in zip([1, 2, 3], ['a', 'b', 'c']):
