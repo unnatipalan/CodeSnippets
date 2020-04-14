@@ -1,26 +1,39 @@
-#1. Separate large numbers 
-ten_billion = 10_000_000_000
+#5. For~Else
+#else statement also be used after for loop, it is executed after for loop
 
-print(f'{ten_billion:,}')
+grades = ['A', 'B', 'C', 'D', 'E', 'F']
 
-#2. Using IF statements for assignment
-# general
-isHappy = True
+my_grade = 'A+'
 
-if isHappy == True:
-    result_string = 'Happy'
+for grade in grades:
+    if grade == my_grade:
+        print('grade found')
+        break
 else:
-    result_string = 'Not Happy'
-
-print(f'General : {result_string}')
+    print('grade not found')
 
 
-# IF statements
-isHappy = True
 
-result_string = 'Happy' if isHappy else 'Not Happy'
+#4. Enumerate
+#When we need index value inside of for loop
 
-print(f'With IF statement : {result_string}')
+# Without enumerate
+grades = ['A', 'B', 'C', 'D', 'E', 'F']
+print('Without Enumerate')
+
+i = 1
+for grade in grades:
+    print(f'{i} : {grade}')
+    i += 1
+
+
+#with enumerate
+grades = ['A', 'B', 'C', 'D', 'E', 'F']
+print('With Enumerate')
+
+for i, grade in enumerate(grades, 1):
+    print(f'{i} : {grade}')
+
 
 # 3. Swapping values without temp variable
 #Temp variable -
@@ -44,23 +57,28 @@ if low > high:
 
 print(f'Without temp variables: {low, high}')
 
-#4. Enumerate
-#When we need index value inside of for loop
 
-# Without enumerate
-grades = ['A', 'B', 'C', 'D', 'E', 'F']
-print('Without Enumerate')
+#2. Using IF statements for assignment
+# general
+isHappy = True
 
-i = 1
-for grade in grades:
-    print(f'{i} : {grade}')
-    i += 1
+if isHappy == True:
+    result_string = 'Happy'
+else:
+    result_string = 'Not Happy'
+
+print(f'General : {result_string}')
+# IF statements
+isHappy = True
+
+result_string = 'Happy' if isHappy else 'Not Happy'
+
+print(f'With IF statement : {result_string}')
 
 
-#with enumerate
-grades = ['A', 'B', 'C', 'D', 'E', 'F']
-print('With Enumerate')
 
-for i, grade in enumerate(grades, 1):
-    print(f'{i} : {grade}')
+#1. Separate large numbers 
+ten_billion = 10_000_000_000
+
+print(f'{ten_billion:,}')
 
