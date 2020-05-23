@@ -21,14 +21,21 @@ Abstract DataTypes or ABTs are logical representations of complex data structure
 
 ### How Factorial Evaluates:
 
-1. Factorial(5) = 5 * factorial(4) __returns(4*6)__
+0. Final Result                     __returns(5*24) = 120__
 
-2. Factorial(4) = 4 * factorial(3) __returns(3*2)__
+1. Factorial(5) = 5 * factorial(4) 
+                                    __returns(4*6)__
 
-3. Factorial(3) = 3 * factorial(2) __returns(2*1)__
+2. Factorial(4) = 4 * factorial(3) 
+                                    __returns(3*2)__
 
-4. Factorial(2) = 2 * factorial(1) __returns(1*1)__
+3. Factorial(3) = 3 * factorial(2) 
+                                    __returns(2*1)__
 
-5. Factorial(1) = 1 * factorial(0) __returns(1)__  <code>Breaks the chain of recursion.</code>
+4. Factorial(2) = 2 * factorial(1) 
+                                    __returns(1*1)__
+
+5. Factorial(1) = 1 * factorial(0) 
+                                    __returns(1)__  <code>Breaks the chain of recursion.</code>
 
 6. If n == 0 return 1 <code>This is the base case!</code>
