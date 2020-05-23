@@ -1,4 +1,4 @@
-#Recursion 
+#Imperative
 
 def binarySearch(A,key):
     low = 0
@@ -20,6 +20,6 @@ def binarySearch(A,key):
     
     return False
 
-array = sorted([1,10,23,13,3,41])
+array = sorted([1,3,10,13,23,41])
 
-print("Does the element exists in the array?", binarySearch(array,45))
+print("Does the element exists in the array?", binarySearch(array,23))
