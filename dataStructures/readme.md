@@ -1,8 +1,8 @@
-Understanding Abstract Datatypes
+# H1 Understanding Abstract Datatypes
 
 Big-O notation gives an upper bound to worst case scenario.
 
-Constant Time: O(1)
-Logarithimic Time: o(log(n))
-Linear Time: O(n)
-Linearithmic Time: O(n log(n))
+1. Constant Time: O(1)
+2. Logarithimic Time: o(log(n))
+3. Linear Time: O(n)
+4. Linearithmic Time: O(n log(n))
