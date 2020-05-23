@@ -29,6 +29,6 @@ Abstract DataTypes or ABTs are logical representations of complex data structure
 
 4. Factorial(2) = 2 * factorial(1) __returns(1*1)__
 
-5. Factorial(1) = 1 * factorial(0) __returns(1)__  <mark>Breaks the chain of recursion.</mark>
+5. Factorial(1) = 1 * factorial(0) __returns(1)__  <code>Breaks the chain of recursion.</code>
 
-6. If n == 0 return 1 <mark>This is the base case!</mark>
+6. If n == 0 return 1 <code>This is the base case!</code>
