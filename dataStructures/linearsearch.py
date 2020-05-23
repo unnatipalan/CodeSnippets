@@ -11,4 +11,4 @@ def linearSearch(array,element):
 
 A = [10,15,16,89]
 
-print("Is Element present in the Array: ",linearSearch(A,2))
+print("Is Element present in the Array: ",linearSearch(A,15))
