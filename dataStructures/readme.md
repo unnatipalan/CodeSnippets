@@ -36,6 +36,31 @@ Abstract DataTypes or ABTs are logical representations of complex data structure
                                     __returns(1*1)__
 
 5. Factorial(1) = 1 * factorial(0) 
-                                    __returns(1)__  <code>Breaks the chain of recursion.</code>
+                                    __returns(1)__  <code><-- **Breaks** the chain of recursion.</code>
 
-6. If n == 0 return 1 <code>This is the base case!</code>
+6. If n == 0 return 1 <code>This is the **BASE** case!</code>
+
+### Binary Search
+
+1. The list/array should be sorted.
+
+2. Mid = (Low + High)/2
+
+3. A[Mid] == Key <code>Found</code>
+
+### Stacks
+
+-  Stack is a collection of objects
+    - Stack can only be filled from the top
+-  Last in First Out
+-  Fundamental Operations are Pushing and Popping
+
+### Stack ADT (Abstract Data Type - Mathematical Model)
+
+-   Stack ADT stores objects
+-   LIFO Scheme for Insert & Delete operations
+-   Operations:
+    - push(object): insert element
+    - pop(): remove and return element
+    - top(): returns last inserted element
+
