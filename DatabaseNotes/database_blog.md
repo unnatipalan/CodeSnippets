@@ -2,6 +2,17 @@
 
 June 2,2020
 
+## Use cases for Cross Joins
+
+### Overview
+
+I have understood what a cross join results into but never came across real world use cases for using cross joins
+
+This video https://www.youtube.com/watch?v=hrupP3jjG5Q is very helpful.
+
+
+June 2,2020
+
 ## Importance of updating Statistics
 
 ### Overview
