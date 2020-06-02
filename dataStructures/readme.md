@@ -64,3 +64,18 @@ Abstract DataTypes or ABTs are logical representations of complex data structure
     - pop(): remove and return element
     - top(): returns last inserted element
 
+
+### Queue
+ - Supports Enqueue and Dequeue operations
+ - Awaiting shared resources
+ - Tasks in Queue
+ - Useful in graph traversals
+
+ ### Queue ABT
+ - Follows **FIFO** first in first out principle.
+ - enqueue(object): Insertion at the rear of the queue
+ - dequeue(object): Removal at the front of the queue
+ - first(): returns element at the front
+ - len(): returns number of elements
+ - isEmpty(): whether the queue is empty or not  
+ 
