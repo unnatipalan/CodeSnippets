@@ -29,6 +29,8 @@ https://youtu.be/8Kc7fPpjc4E?list=PLoM-GGCV9ZrJ3ysEqMEHHN8piAR3AIF5G illustrates
  - Look for output references & list as columns
  - Look for predicates(filters) used
  - Look for Properties in SQL Execution plans and check if security policies have been enabled.
+ - Look for warnings in Execution Plan
+ - Look for estimated number of rows vs actual number of rows
  - Look for **row level security** policies under the policies folder(SQL Server 2016 and above)
 
  ### Conclusion
