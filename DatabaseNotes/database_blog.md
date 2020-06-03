@@ -1,5 +1,40 @@
 # Notes in SQL Insights
 
+June 3, 2020
+
+## Deadlocks
+
+Deadlocks occurs when two queries are waiting for each other and neither can proceed.
+
+For example:
+
+* **Transaction1** has an exclusive lock on **Table1**
+* **Transaction2** has an exclusive lock on **Table2**
+* **Transaction1** requests for an exclusive lock on **Table2**, which it cannot acquire as **Transaction2** has not yet released the lock from **Table2**, so **Transaction1** enters into a waiting state.
+* **Transaction2** meanwhile, while still having an exclusive lock on **Table2**, requests for a exclusive lock on **Table1** which has not yet been released from **Transaction1**
+
+> This situation results into a deadlock when both queries cannot proceed and are permanently in a waiting state.
+
+---
+
+June 3, 2020
+
+## Execution Plan
+
+### Overview
+
+> What is an Execution Plan?
+
+* Compiled before execution
+    * Not adaptable until 2017(limited use cases)
+* Execution Plan is based on:
+    * Statistics about data distribution
+    * Sniffed values for parameters
+* Queries maybe slow if the resources they are trying to access have locks on them. In which case, there is very little you can do with the execution plan. However, the **actual execution plan** may have details of Wait Statistics.
+* 
+
+---
+
 June 2,2020
 
 ## Use cases for Cross Joins
@@ -10,6 +45,7 @@ I have understood what a cross join results into but never came across real worl
 
 This video https://www.youtube.com/watch?v=hrupP3jjG5Q is very helpful.
 
+---
 
 June 2,2020
 
@@ -26,6 +62,8 @@ This video https://youtu.be/gZOtiOfwZNg explains with helpful code samples.
 - Incase it is not, then the query can reuse an out of date execution plan 
 - Usually SQL Server uses the following thumb rule to update statistics on a table:
 >     20% or 800 rows are changed then SQL Server.
+
+---
 
 June 2, 2020
 ## Execution Plan Analysis when Row Level Security is enabled on a table!
