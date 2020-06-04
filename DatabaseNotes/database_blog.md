@@ -1,8 +1,22 @@
 # Notes in SQL Insights
 
+June 4, 2020
+
+## What are Data Lakes?
+
+source: https://www.youtube.com/watch?v=2NZxSz0hzE0
+
+![DataLakes](https://entrigna.com/wp-content/uploads/2018/07/Data-Lake-Chart-4-1.png)
+
+Relational databases are widely used for transaction data but data exists outside transactions that are required by applications through out any organization.
+
+**Data Lakes** are used as raw data stores for applications, sensors etc. where different source systems can dump data which can then serve as source to reporting, analytics and data warehouse systems.
+
+---
+
 June 3, 2020
 
-## Deadlocks
+## Deadlocks in SQL
 
 Deadlocks occurs when two queries are waiting for each other and neither can proceed.
 
@@ -12,6 +26,8 @@ For example:
 * **Transaction2** has an exclusive lock on **Table2**
 * **Transaction1** requests for an exclusive lock on **Table2**, which it cannot acquire as **Transaction2** has not yet released the lock from **Table2**, so **Transaction1** enters into a waiting state.
 * **Transaction2** meanwhile, while still having an exclusive lock on **Table2**, requests for a exclusive lock on **Table1** which has not yet been released from **Transaction1**
+
+![Deadlock Visualised](https://dotnettutorials.net/wp-content/uploads/2018/12/c-users-pranaya-pictures-sql-server-deadlock-exam.png)
 
 > This situation results into a deadlock when both queries cannot proceed and are permanently in a waiting state.
 
