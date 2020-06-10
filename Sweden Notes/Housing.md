@@ -1,7 +1,7 @@
 ## Housing Options in Sweden
 ---
 
-Rentals:-
+### Details about Rentals in Sweden
 * first hand rental - signed between owner and tenant directly. Advantages:
     * Usually lower rents than Sublets.
     * Long term contracts unless breached.
