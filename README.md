@@ -1,3 +1,5 @@
 # CodeSnippets
 
-Code nuggets for understanding and reuse.
+Code nuggets, notes etc. for understanding, revision and reuse.
+
+
