@@ -1,8 +1,8 @@
-## A Difference of Opinion
+## The origin of a Difference in/of Opinion
 
-### So what gives?
+### So what *is* an opinion and why bothers?
 
-So what is *really* qualifies as an [opinion](https://dictionary.cambridge.org/dictionary/english/opinion)? 
+Before we begin, what *really* qualifies as an [opinion](https://dictionary.cambridge.org/dictionary/english/opinion)? 
 
 It is widely understood as a person's perspective or view on a certain subject that may or may not be factual. It maybe political spiritual or a stance that may be influenced by experience or expertise, or even just whimsical.
 
